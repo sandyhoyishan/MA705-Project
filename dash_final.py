@@ -61,6 +61,7 @@ stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=stylesheet)
 
+server = app.server
 
 fig01 = px.bar(df, x="Name", y="Age")
 fig02 = px.bar(df, x="Name", y="HeightNum")
