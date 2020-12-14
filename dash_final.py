@@ -16,15 +16,12 @@ Created on Wed Nov 25 20:16:38 2020
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
-from collections import Counter 
 import dash
 import dash_table as dt
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output # control interaction
-import plotly.express as px # mini version of plotly
 import plotly.io as pio
 
 pio.templates.default = "seaborn"

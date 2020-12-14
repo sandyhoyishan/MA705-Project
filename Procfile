@@ -1,1 +1,1 @@
-web: gunicorn fruit_dashboard:server
+web: gunicorn dash_final:server
